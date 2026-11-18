@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip NFT Rocket
-        run: unzip -oq nftcase_rocket.zip -x ".github/*" -d .
+        run: unzip -oq nftcase_rocket.zip -d "NFT Rocket"
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
