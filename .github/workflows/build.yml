@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -o nftcase_fixed_v2.zip -d .
+        run: unzip -o nftcase_fixed_no_outline.zip -d .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
